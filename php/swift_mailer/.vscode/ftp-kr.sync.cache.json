@@ -1,0 +1,71 @@
+{
+  "ftp://ftp.patrimoniomanaus.com.br:21@patrimoniomanaus": {
+    "swiftmailer": {},
+    "public_html": {
+      "swiftmailer": {
+        "PatrimonioMail.php": {
+          "type": "-",
+          "size": 639,
+          "lmtime": 1544474282251,
+          "modified": false
+        },
+        "composer.json": {
+          "type": "-",
+          "size": 237,
+          "lmtime": 0,
+          "modified": false
+        },
+        "composer.lock": {
+          "type": "-",
+          "size": 6556,
+          "lmtime": 0,
+          "modified": false
+        },
+        "contato.js": {
+          "type": "-",
+          "size": 4789,
+          "lmtime": 1544543006263,
+          "modified": false
+        },
+        "error_log": {
+          "type": "-",
+          "size": 3774,
+          "lmtime": 0,
+          "modified": true
+        },
+        "index.php": {
+          "type": "-",
+          "size": 291,
+          "lmtime": 1544550574891,
+          "modified": false
+        },
+        "main.js": {
+          "type": "-",
+          "size": 147,
+          "lmtime": 1544538448333,
+          "modified": false
+        },
+        "sender.php": {
+          "type": "-",
+          "size": 3343,
+          "lmtime": 1544738039080,
+          "modified": false
+        },
+        "teste.html": {
+          "type": "-",
+          "size": 385,
+          "lmtime": 1544727462966,
+          "modified": false
+        },
+        "testejs.js": {
+          "type": "-",
+          "size": 1255,
+          "lmtime": 1544730915820,
+          "modified": false
+        },
+        "vendor": {}
+      }
+    }
+  },
+  "$version": 1
+}

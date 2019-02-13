@@ -1,0 +1,63 @@
+{
+  "ftp://ftp.patrimoniomanaus.com.br:21@patrimoniomanaus": {
+    "public_html": {
+      "form-builder": {
+        "assets": {
+          "css": {
+            "main.css": {
+              "type": "-",
+              "size": 26084,
+              "lmtime": 1544553167159,
+              "modified": false
+            }
+          },
+          "js": {
+            "main.js": {
+              "type": "-",
+              "size": 11486,
+              "lmtime": 1544564399580,
+              "modified": false
+            },
+            "mask.js": {
+              "type": "-",
+              "size": 53272,
+              "lmtime": 1544553246762,
+              "modified": false
+            }
+          }
+        },
+        "contato-horario-modo.php": {
+          "type": "-",
+          "size": 1691,
+          "lmtime": 1544553077452,
+          "modified": false
+        },
+        "error_log": {
+          "type": "-",
+          "size": 449,
+          "lmtime": 0,
+          "modified": false
+        },
+        "form.html": {
+          "type": "-",
+          "size": 5538,
+          "lmtime": 1544552878465,
+          "modified": false
+        },
+        "functions.php": {
+          "type": "-",
+          "size": 2285,
+          "lmtime": 1544562356393,
+          "modified": false
+        },
+        "index.php": {
+          "type": "-",
+          "size": 2930,
+          "lmtime": 1544557437283,
+          "modified": false
+        }
+      }
+    }
+  },
+  "$version": 1
+}

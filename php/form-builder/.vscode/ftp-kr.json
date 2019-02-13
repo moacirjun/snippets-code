@@ -1,0 +1,16 @@
+{
+    "host": "ftp.patrimoniomanaus.com.br",
+    "username": "patrimoniomanaus",
+    "password": "matadouro@xotas#",
+    "remotePath": "public_html/form-builder",
+    "protocol": "ftp",
+    "port": 21,
+    "fileNameEncoding": "utf8",
+    "autoUpload": true,
+    "autoDelete": false,
+    "autoDownload": false,
+    "ignore": [
+        ".git",
+        "/.vscode"
+    ]
+}

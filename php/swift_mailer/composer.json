@@ -1,0 +1,12 @@
+{
+    "name": "moacirjun/swift_mailer",
+    "authors": [
+        {
+            "name": "MoacirjuN",
+            "email": "moacirjunior.eletro@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.1"
+    }
+}

@@ -1,0 +1,90 @@
+/*CARROUSEL IMAGENS*/
+#carousel {
+    position: relative;
+    overflow-x: hidden;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#carrousel-container {
+    will-change: transform;
+    position: relative;
+}
+
+#carousel .btn{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    padding: 0 .5rem;
+    display: flex;
+    align-items: center;
+}
+
+#carousel .btn svg {
+    cursor: pointer;
+}
+
+#carousel .btn.previous {
+    left: 0;
+    transform: rotate(180deg);
+}
+
+#carousel .btn.next {
+    right: 0;
+}
+
+#carousel ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    margin: 0;
+    padding: 0;
+}
+
+#carrousel-container ::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+}
+
+#carousel ul>li {
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 4px;
+}
+
+#carousel .carousel-item {
+    background-color: #f1f1f1;
+    transition: all .4s;
+}
+
+#carousel ul>li .carousel-item {
+    margin: 1rem .5rem;
+}
+
+#carousel .carousel-item img,
+#carousel .imagem-destacada img {
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#carousel .imagem-destacada,
+#carousel ul>li .carousel-item {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+#carousel .imagem-destacada img.hide {
+    opacity: 0;
+    transition: opacity .4s ease;
+}

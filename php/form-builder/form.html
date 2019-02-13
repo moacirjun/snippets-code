@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Teste</title>
+</head>
+<body>
+    <form method="post" action="https://patrimoniomanaus.com.br/mail/mail.php">
+        <h3>CADASTRE-SE E CONHEÇA NOSSOS PRODUTOS E VANTAGENS</h3>
+        <label>Preencha com seus dados</label>
+        <input type="text" name="nome" placeholder="Nome Completo" required="">
+        <input type="text" name="data_nasc" class="data" placeholder="Data de Nascimento" required="">
+        <input type="text" name="endereco" placeholder="Endereço" required="">
+        <input type="text" name="renda" class="renda" placeholder="Renda Familiar" required="">
+        <input type="tel" name="telefone" placeholder="Telefone" required="">
+        <input type="text" name="cpf" class="cpf" placeholder="CPF" required="">
+        <input type="email" name="email" placeholder="E-MAIL" required="">
+        
+        <br>
+    <span class="form-text">Como devemos contatá-lo? Fique a vontade para escolher quantos quiser.</span>
+    <div class="modo-contato">
+    <div class="item modo-contato">
+    <div class="icon wa"></div>
+    <div class="content">
+    Whatsapp
+    </div>
+    </div>
+    <div class="item modo-contato">
+    <div class="icon em"></div>
+    <div class="content">
+    E-mail
+    </div>
+    </div>
+    <div class="item modo-contato">
+    <div class="icon te"></div>
+    <div class="content">
+    Ligue-me
+    </div>
+    </div>
+    </div>
+    
+    <div class="escolha-hora">
+    <div id="dropdown-horas">
+    <div class="botao-escolha" id="botao-hora">
+    <span class="form-text">Melhor horário?</span>
+    <span class="arrow-down"></span>
+    </div>
+    
+    <ul class="lista-horarios" id="lista-horas">
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">08:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">09:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">10:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">11:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">12:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">13:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">14:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">15:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">16:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">17:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">18:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">19:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">20:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">21:00</span>
+        </li>
+                                    <li>
+            <input type="checkbox" class="chk-custom">
+            <span class="form-text">22:00</span>
+        </li>
+            </ul>
+    </div>
+    
+    <div class="hora-escolhida" id="hora-definida">
+    <span class="form-text">09:00 horas</span>
+    <span class="arrow-down check"></span>
+    </div>
+    </div>
+    
+    <div class="terms">
+    <input type="checkbox" name="terms" class="chk-custom verde-claro">
+    <span class="form-text terms">I agree to the <span class="verde-claro">Terms of Service &amp; Privacy Policy<span><span class="form-text">
+    </span></span></span></span></div>				
+                            <input class="botao" type="submit" value="Enviar">
+                                            <input type="hidden" value="Orgânico" name="Origem">
+                        <input type="hidden" value="https://patrimoniomanaus.com.br/smile" name="return_url">
+        <input type="hidden" value="
+    Um potencial cliente acaba de submeter seus dados na Landing Page do Smile" name="cabecalho">
+        <input type="hidden" value="Novo Cadastro na Landing Page do Smile - LBZ Agency" name="assunto">
+        <input type="hidden" value="contato" name="container-id">
+    </form>
+
+    <link href="assets/css/main.css" rel="stylesheet">
+</body>
+</html>

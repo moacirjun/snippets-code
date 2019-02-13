@@ -1,0 +1,16 @@
+#carrousel-destaque {
+    display: flex;
+    flex-direction: column;
+}
+#carrousel-destaque .imagem-destaque{
+    height: 500px;
+    margin-bottom: .4rem;
+}
+#carrousel-destaque .imagem,
+#carrousel-destaque img{
+    width: 200px;
+    height: 56.12%;
+}
+.imagem-destaque{
+    height: 100%;
+}

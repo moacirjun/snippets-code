@@ -1,0 +1,29 @@
+#menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+#menu li {
+    padding: 1rem;
+    margin: 0 .5rem;
+    cursor: pointer;
+}
+#menu li.selected {
+    background-color: #ff0;
+}
+#containers{
+    list-style: none;
+    margin: 0;
+}
+#containers li {
+    display: none;
+    background-color: #ff0;
+    padding: 1rem;
+    min-width: 200px;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#containers li.selected {
+    display: flex;
+}
